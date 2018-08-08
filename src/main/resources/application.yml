@@ -1,0 +1,4 @@
+weatherapi:
+  endpoint:
+    url: http://api.openweathermap.org/data/2.5/weather
+    apiKey: 4536d9b62b4404d98e6f7fee26b04e4e

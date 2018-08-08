@@ -10,6 +10,8 @@ import lombok.ToString;
 @ToString
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Main {
+
+
     private double temp;
     private int pressure;
     private int humidiity;

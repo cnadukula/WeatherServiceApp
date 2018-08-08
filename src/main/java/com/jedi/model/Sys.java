@@ -10,6 +10,7 @@ import lombok.ToString;
 @ToString
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Sys {
+
     private int type;
     private int id;
     private double message;

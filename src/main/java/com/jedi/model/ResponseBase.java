@@ -11,7 +11,10 @@ import java.util.ArrayList;
 @Setter
 @ToString
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class RequestBase {
+public class ResponseBase {
+
+
+
     private Coordinates coordinates;
     private ArrayList<Weather> weather;
     private String base;
